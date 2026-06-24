@@ -35,7 +35,12 @@
 - **Self-attention calculation:** For each word, produce a series of scores for all words in the surrounding context. Score = query vector of current word × key vector of context word. For each word → N scores (N = number of words in context). Result: "attention score" per word, how much to pay attention to which surrounding word, down-leveling irrelevant ones.
 - **Q/K/V matrices:** Don't yet understand what query, key, and value matrices/vectors are and how we get to them. 😄
 
-*(notes will be continued)*
+#### Second reading session
+
+- **Positional Encoding (open question):** Did not get the intent of this section. What is positional encoding, what should the values in [0, 1] communicate, how are they interpreted? Why does the encoder need to know about the order of words? Missing the picture here. **(→ Answered below)**
+- **Decoder side:** "The output of each step is fed to the bottom decoder in the next time step." → Output is produced token by token, already generated tokens are fed into the decoder as context. Makes sense — autoregressive generation.
+- **Decoder output → word:** Linear Layer maps output vector to higher-dimensional vector (one entry per word in vocabulary). Then softmax, highest value = highest probability = selected word. Right? **(→ Yes, correct.)**
+- **DeepLearning.AI course:** Worth doing the linked 2025 course (1h30m) to deepen understanding and fill gaps: https://www.deeplearning.ai/courses/how-transformer-llms-work
 
 ## 🔗 Cross-Links
 
