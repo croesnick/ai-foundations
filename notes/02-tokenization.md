@@ -40,6 +40,12 @@
   - "Efficient training for large language models to fill in the middle" (FIM paper)
   - "Beren's Blog — Integer Tokenization is insane"
 
+#### Feedback on the reading
+
+- **Style preference:** Found the Karpathy video **too implementation-focused** — e.g. Python 3.6 vs 3.7+ dict iteration order details. Prefers a lecture-style approach: definition → examples → intuition. Found the Tokenizer chapter in "Build a Large Language Model (From Scratch)" by Sebastian Raschka (https://www.amazon.de/dp/B0DC4NYLTN) much more accessible for his learning style.
+- **But:** Karpathy had very interesting random bits of insight nonetheless, e.g. why ending a sentence with a space results in weaker completions for some models.
+- **Takeaway for future selections:** Prefer foundational/lecture-style resources (definitions, examples, structured) over code-along/implementation-heavy ones. Implementation details are less important than conceptual understanding.
+
 ## 🔗 Cross-Links
 
 - **Prerequisites:** [01-transformer.md](01-transformer.md)
