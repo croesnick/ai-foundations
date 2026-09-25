@@ -13,8 +13,8 @@ Each topic has a dedicated note file. Notes contain the assigned reading, key co
 | 1 | [Transformer Architecture & Self-Attention](notes/01-transformer.md) | 📝 | ✅ Done |
 | 2 | [Tokenization & Tokenizers](notes/02-tokenization.md) | 📝 | ✅ Done |
 | 3 | [Pre-training → SFT → RLHF / DPO / GRPO](notes/03-pre-training.md) | 📝 | ✅ Done |
-| 4 | [Mixture of Experts (MoE)](notes/04-moe.md) | 📝 | 📖 Reading |
-| 5 | [Quantization (GGUF, GPTQ, AWQ, EXL2)](notes/05-quantization.md) | 📝 | ⬜ |
+| 4 | [Mixture of Experts (MoE)](notes/04-moe.md) | 📝 | ✅ Done |
+| 5 | [Quantization (GGUF, GPTQ, AWQ, EXL2)](notes/05-quantization.md) | 📝 | 📖 Reading |
 | 6 | [Model Families & Ecosystem](notes/06-model-families.md) | 📝 | ⬜ |
 | 7 | [LoRA / QLoRA / PEFT](notes/07-lora.md) | 📝 | ⬜ |
 | 8 | [Inference Optimization](notes/08-inference.md) | 📝 | ⬜ |
@@ -63,7 +63,7 @@ Recurring concepts that appear across multiple topics, collected in [`_concepts/
 
 - **Started**: 2026-06-24
 - **Current Cycle**: 1
-- **Topics Covered**: 3/15 (reading #4)
+- **Topics Covered**: 4/15 (reading #5)
 
 ---
 
